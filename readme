@@ -1,0 +1,14 @@
+As of writing this readme file I don't expect to have a final program. While
+developing the program I repeatedly encountered segmentation fault errors that
+I was unable to determine the source of, which made testing the other functions
+(i.e. deadlock prevention alogrithm) nearly impossible.
+
+I have developed functions for messaging between user and oss process signaling
+request, release, and terminaton from user to oss; granting resources,
+blocking, and unblocking signals from oss to user; and writing a table of
+allocated resources to data.log files.
+
+The program is currently unable to complete the task set out by the project but
+I won't be able to complete a working program by the due date.
+
+log can be found at https://github.com/jbx86/o2-buchschacher.5
